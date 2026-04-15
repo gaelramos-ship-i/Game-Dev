@@ -1,0 +1,68 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Dots&display=swap');
+
+/* Général */
+*{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-out;
+}
+
+a:hover{
+    color: #FD307A;
+    transition: 0.3s ease-out;
+}
+
+/* Section Header */
+
+header{
+    max-width: 1440px;
+    margin: auto;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+/* Section Footer */
+
+footer{
+    background: #293445;
+    padding: 80px 0;
+}
+
+footer div{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p, footer a{
+    color:#A5B8D2;
+    line-height: 1.5rem;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    gap: 40px;
+    line-height: 1.5rem;
+}
+
+footer h2, img{
+    margin-bottom: 20px;
+}
