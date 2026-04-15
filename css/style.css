@@ -93,6 +93,51 @@ header nav ul{
     color: #FD307A;
 }
 
+/* Section 2 */
+
+.section-background2{
+    background-image: url('../img/background-section2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.section2{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.section2 article h1{
+    font-family: "Zen Dots", sans-serif;
+    font-size: 14px;
+    color: #A5B8D2;
+    margin-bottom: 20px;
+}
+.section2 article h2{
+    font-family: "Zen Dots", sans-serif;
+    font-size: 55px;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+.section2 article p{
+    font-size: 16px;
+    width: 76%;
+    margin-bottom: 10%;
+    line-height: 1.5;
+}
+
+.section2 article a{
+    text-transform: uppercase;
+    font-size: 12px;
+    border: solid 1px #fff;
+    padding: 10px 20px;
+}
+
 /* Section Footer */
 
 footer{
