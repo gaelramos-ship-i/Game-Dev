@@ -202,7 +202,7 @@ header nav ul{
     padding: 40px;
 }
 
-.text4 h2{
+.text4 h1{
     font-size: 55px;
     font-family: "Zen Dots", sans-serif;
 }
@@ -271,6 +271,80 @@ header nav ul{
     height: 100%;
 }
 
+/* Section 5 */
+
+.section-background4{
+    background-image: url('/img/background-section5.jpg');
+    background-size: cover;
+}
+
+.section5{
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.section5 h1{
+    font-family: "Zen Dots", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.section5 h2{
+    font-family: "Zen Dots", sans-serif;
+    font-size: 55px;
+}
+
+.section5 h3{
+    font-family: "Zen Dots", sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.section5 p{
+    color: #FFFFFFAD;
+}
+
+.section5 > article:nth-child(1){
+    padding: 100px 0;
+}
+
+.text-section{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.style-title{
+    padding: 50px 0;
+}
+
+.style-title h2{
+    font-size: 14px;
+}
+
+.style-title h3{
+    font-size: 55px;
+    width: 60%;
+}
+
+hr{
+    height: 1px;
+    background: #FFFFFF36;
+    border: none;
+}
+
+.logo-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+}
+
+.logo-section img{
+    height: 100%;
+}
+
 /* Section Footer */
 
 footer{
@@ -298,6 +372,6 @@ footer ul{
     line-height: 1.5rem;
 }
 
-footer h2, img{
+footer > h2, footer > img{
     margin-bottom: 20px;
 }
